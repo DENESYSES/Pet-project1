@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Itim', cursive;
+    height: 100vh;
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.column h2 {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.column h2:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    
+}
+
+.column button {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.column button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 4rem;
+    transition: 0.3s;
+}   
